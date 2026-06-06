@@ -1,0 +1,42 @@
+{
+  "meeting_id": "trading_system_kickoff",
+  "metadata": {
+    "date": "2001-05-20",
+    "duration": "60 minutes",
+    "participants": ["Project Manager", "Lead Developer", "Business Analyst", "Security Expert"]
+  },
+  "utterances": [
+    {
+      "speaker": "Project Manager",
+      "text": "Welcome everyone to the trading system project kickoff meeting. Our goal is to build a high-performance trading platform."
+    },
+    {
+      "speaker": "Business Analyst",
+      "text": "The business requirements include real-time data processing, order management, and risk assessment capabilities."
+    },
+    {
+      "speaker": "Lead Developer",
+      "text": "From a technical perspective, we're looking at a microservices architecture with event-driven communication."
+    },
+    {
+      "speaker": "Security Expert",
+      "text": "Security is paramount. We need encryption, authentication, and comprehensive audit logging."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "The timeline is aggressive - we have 6 months to deliver the MVP with core trading functionality."
+    },
+    {
+      "speaker": "Business Analyst",
+      "text": "We need to prioritize features. Order entry and execution are critical, portfolio management can come in phase 2."
+    },
+    {
+      "speaker": "Lead Developer",
+      "text": "I suggest we start with the order processing service and build out from there. We'll need a robust message queue."
+    },
+    {
+      "speaker": "Security Expert",
+      "text": "Let's not forget compliance requirements. We need to ensure all transactions are properly logged and auditable."
+    }
+  ]
+}

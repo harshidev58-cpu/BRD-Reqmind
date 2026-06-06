@@ -1,0 +1,42 @@
+{
+  "meeting_id": "architecture_review",
+  "metadata": {
+    "date": "2001-05-25",
+    "duration": "90 minutes",
+    "participants": ["Lead Developer", "System Architect", "Database Admin", "DevOps Engineer"]
+  },
+  "utterances": [
+    {
+      "speaker": "System Architect",
+      "text": "Let's review the proposed system architecture. We have the API gateway, order service, user service, and notification service."
+    },
+    {
+      "speaker": "Lead Developer",
+      "text": "The order service will handle all trading operations. It needs to be highly available and scalable."
+    },
+    {
+      "speaker": "Database Admin",
+      "text": "For the database layer, I recommend using a combination of relational and NoSQL databases for different use cases."
+    },
+    {
+      "speaker": "DevOps Engineer",
+      "text": "We should containerize all services and use Kubernetes for orchestration. This will help with scaling and deployment."
+    },
+    {
+      "speaker": "System Architect",
+      "text": "The system needs to handle 10,000 transactions per second during peak hours. We need proper load balancing."
+    },
+    {
+      "speaker": "Lead Developer",
+      "text": "We'll implement circuit breakers and retry mechanisms to handle service failures gracefully."
+    },
+    {
+      "speaker": "Database Admin",
+      "text": "Database replication and sharding will be necessary to handle the transaction volume."
+    },
+    {
+      "speaker": "DevOps Engineer",
+      "text": "Monitoring and alerting are crucial. We need real-time visibility into system performance and health."
+    }
+  ]
+}

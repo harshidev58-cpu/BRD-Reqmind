@@ -1,0 +1,129 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+venv_clean/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# CRITICAL: Environment variables (Contains API keys - DO NOT PUSH)
+.env
+.env.local
+.env.*.local
+
+# Node modules (installable via npm)
+node_modules/
+frontend-react/node_modules/
+
+# Build outputs
+frontend-react/dist/
+frontend-react/build/
+
+# Streamlit cache
+.streamlit/
+
+# Large model files
+*.pkl
+*.h5
+*.model
+
+# Sensitive data
+*_private*
+*_secret*
+api_keys.txt
+
+# Temporary/Development Helper Scripts (documentation only)
+run_backend.sh
+run_frontend.sh
+start_backend.py
+start_frontend.py
+QUICK_GITHUB_PUSH.sh
+
+# Documentation/Guide Files (for reference only, not needed in repo)
+00_START_HERE.md
+APP_DATA_ARCHITECTURE.md
+APP_DEMONSTRATION.md
+APP_RUNNING.md
+APP_STATUS_FIXED.md
+APP_TESTING_REPORT.md
+APP_VISUAL_SUMMARY.txt
+COPY_PASTE_COMMANDS.md
+DOCUMENTATION_CREATED.txt
+DOCUMENTATION_SUMMARY.md
+FIXED_FRONTEND_ISSUE.md
+FRONTEND_TROUBLESHOOTING.md
+GITHUB_PUSH_CHEATSHEET.txt
+GITHUB_PUSH_GUIDE.md
+QUICK_START_GUIDE.md
+TEST_SCENARIOS.md

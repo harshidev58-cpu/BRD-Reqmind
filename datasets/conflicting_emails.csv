@@ -1,0 +1,5 @@
+From,To,Subject,Body,Date,Message-ID
+urgent.user@company.com,team@company.com,URGENT Project Requirements,This project is extremely urgent and needs to be completed immediately. We cannot afford any delays.,2024-01-15T10:30:00,urgent001
+relaxed.user@company.com,team@company.com,Project Timeline,This is a low priority project that we can work on in the future when we have more resources available.,2024-01-15T11:15:00,relaxed001
+simple.dev@company.com,team@company.com,Simple Implementation,This should be a very simple and basic implementation. Nothing complex needed.,2024-01-16T09:00:00,simple001
+complex.architect@company.com,team@company.com,Complex Architecture Required,We need a highly complex and advanced system with sophisticated algorithms and multiple integrations.,2024-01-16T14:30:00,complex001
